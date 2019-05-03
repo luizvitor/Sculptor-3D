@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="struct_voxel" kind="struct" language="C++" prot="public">
+    <compoundname>Voxel</compoundname>
+    <includes refid="sculptor_8h" local="no">sculptor.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_voxel_1af8715c373730c8f0bfe5df46dc376708" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Voxel::red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="14" column="1" bodyfile="sculptor.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_voxel_1aac0e7870d454df5817b5516bb293a33e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Voxel::green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="14" column="1" bodyfile="sculptor.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_voxel_1a78da493d12803794ee78ae077720c14d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Voxel::blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="14" column="1" bodyfile="sculptor.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_voxel_1a1aeba28850b29ffa96a010d32c8f3ccf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Voxel::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="15" column="1" bodyfile="sculptor.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_voxel_1a6fbe8bd53f64685ac4210726d40fc775" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Voxel::isOn</definition>
+        <argsstring></argsstring>
+        <name>isOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="16" column="1" bodyfile="sculptor.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Estrutura para os blocos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sculptor.h" line="13" column="1" bodyfile="sculptor.h" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_voxel_1a1aeba28850b29ffa96a010d32c8f3ccf" prot="public" virt="non-virtual"><scope>Voxel</scope><name>alpha</name></member>
+      <member refid="struct_voxel_1a78da493d12803794ee78ae077720c14d" prot="public" virt="non-virtual"><scope>Voxel</scope><name>blue</name></member>
+      <member refid="struct_voxel_1aac0e7870d454df5817b5516bb293a33e" prot="public" virt="non-virtual"><scope>Voxel</scope><name>green</name></member>
+      <member refid="struct_voxel_1a6fbe8bd53f64685ac4210726d40fc775" prot="public" virt="non-virtual"><scope>Voxel</scope><name>isOn</name></member>
+      <member refid="struct_voxel_1af8715c373730c8f0bfe5df46dc376708" prot="public" virt="non-virtual"><scope>Voxel</scope><name>red</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

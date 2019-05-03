@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="class_sculptor" kind="class"><name>Sculptor</name>
+    <member refid="class_sculptor_1a4ca53a2f2fbf41ca42dfe729ebe693f1" kind="variable"><name>v</name></member>
+    <member refid="class_sculptor_1a525224a4b6cfce4f04f5436840c55014" kind="variable"><name>nl</name></member>
+    <member refid="class_sculptor_1a645b884476c1463e997fa26d0e69f48f" kind="variable"><name>nc</name></member>
+    <member refid="class_sculptor_1a0eda60149e22aee92e24e4a62f6247aa" kind="variable"><name>np</name></member>
+    <member refid="class_sculptor_1a3f5d2ec3b66d645019b8d81c810a1cd8" kind="variable"><name>r</name></member>
+    <member refid="class_sculptor_1a208c06af69a81a1568df4493868816f1" kind="variable"><name>g</name></member>
+    <member refid="class_sculptor_1a7aafd7305ea634252d8288b60536cd96" kind="variable"><name>b</name></member>
+    <member refid="class_sculptor_1a6fd0157dcf17582f0edd5fddf157604e" kind="variable"><name>a</name></member>
+    <member refid="class_sculptor_1a5e75695b8f097cdf0fa90bd721d1aa61" kind="function"><name>Sculptor</name></member>
+    <member refid="class_sculptor_1a8f159bf97458326f16d2e238e11be7ff" kind="function"><name>~Sculptor</name></member>
+    <member refid="class_sculptor_1a4e53f85ee03b729efafa985f72563c4b" kind="function"><name>setColor</name></member>
+    <member refid="class_sculptor_1a4bdea3048b419d58e93074060eaa7b52" kind="function"><name>putVoxel</name></member>
+    <member refid="class_sculptor_1ad9d714a35fc8ae16d06eb5df37c3493c" kind="function"><name>cutVoxel</name></member>
+    <member refid="class_sculptor_1a88b0c956505a1b788829cf98277b4af0" kind="function"><name>putBox</name></member>
+    <member refid="class_sculptor_1a5ad1b33910238f75576108337d57757e" kind="function"><name>cutBox</name></member>
+    <member refid="class_sculptor_1a794a2b6ee8fc8098fd6150cb46101fc6" kind="function"><name>putSphere</name></member>
+    <member refid="class_sculptor_1a67ab8c0ba5116adb8af1d01ad373ac15" kind="function"><name>cutSphere</name></member>
+    <member refid="class_sculptor_1a093615b0c2b9b3a17a56300b9b939f39" kind="function"><name>putEllipsoid</name></member>
+    <member refid="class_sculptor_1a18d2922c111c4c13653ee07d878151ad" kind="function"><name>cutEllipsoid</name></member>
+    <member refid="class_sculptor_1a4faae5ab2d72f2f682005f468e7e8a92" kind="function"><name>writeOFF</name></member>
+    <member refid="class_sculptor_1a200442de17ed45b7a1ece728145a2ddf" kind="function"><name>writeVECT</name></member>
+  </compound>
+  <compound refid="struct_voxel" kind="struct"><name>Voxel</name>
+    <member refid="struct_voxel_1af8715c373730c8f0bfe5df46dc376708" kind="variable"><name>red</name></member>
+    <member refid="struct_voxel_1aac0e7870d454df5817b5516bb293a33e" kind="variable"><name>green</name></member>
+    <member refid="struct_voxel_1a78da493d12803794ee78ae077720c14d" kind="variable"><name>blue</name></member>
+    <member refid="struct_voxel_1a1aeba28850b29ffa96a010d32c8f3ccf" kind="variable"><name>alpha</name></member>
+    <member refid="struct_voxel_1a6fbe8bd53f64685ac4210726d40fc775" kind="variable"><name>isOn</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="sculptor_8cpp" kind="file"><name>sculptor.cpp</name>
+  </compound>
+  <compound refid="sculptor_8h" kind="file"><name>sculptor.h</name>
+  </compound>
+</doxygenindex>

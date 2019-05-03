@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_sculptor" kind="class" language="C++" prot="public">
+    <compoundname>Sculptor</compoundname>
+    <includes refid="sculptor_8h" local="no">sculptor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sculptor_1a4ca53a2f2fbf41ca42dfe729ebe693f1" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_voxel" kindref="compound">Voxel</ref> ***</type>
+        <definition>Voxel*** Sculptor::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="24" column="1" bodyfile="sculptor.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a525224a4b6cfce4f04f5436840c55014" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sculptor::nl</definition>
+        <argsstring></argsstring>
+        <name>nl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="25" column="1" bodyfile="sculptor.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a645b884476c1463e997fa26d0e69f48f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sculptor::nc</definition>
+        <argsstring></argsstring>
+        <name>nc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="25" column="1" bodyfile="sculptor.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a0eda60149e22aee92e24e4a62f6247aa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sculptor::np</definition>
+        <argsstring></argsstring>
+        <name>np</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="25" column="1" bodyfile="sculptor.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a3f5d2ec3b66d645019b8d81c810a1cd8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sculptor::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="26" column="1" bodyfile="sculptor.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a208c06af69a81a1568df4493868816f1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sculptor::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="26" column="1" bodyfile="sculptor.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a7aafd7305ea634252d8288b60536cd96" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sculptor::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="26" column="1" bodyfile="sculptor.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sculptor_1a6fd0157dcf17582f0edd5fddf157604e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sculptor::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="26" column="1" bodyfile="sculptor.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sculptor_1a5e75695b8f097cdf0fa90bd721d1aa61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Sculptor::Sculptor</definition>
+        <argsstring>(int _nx=0, int _ny=0, int _nz=0)</argsstring>
+        <name>Sculptor</name>
+        <param>
+          <type>int</type>
+          <declname>_nx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ny</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nz</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Alocação da Matriz 3D. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="31" column="1" bodyfile="sculptor.cpp" bodystart="10" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a8f159bf97458326f16d2e238e11be7ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Sculptor::~Sculptor</definition>
+        <argsstring>()</argsstring>
+        <name>~Sculptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="33" column="1" bodyfile="sculptor.cpp" bodystart="40" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a4e53f85ee03b729efafa985f72563c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::setColor</definition>
+        <argsstring>(float _r, float _g, float _b, float alpha)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>float</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Atribuir as cores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="37" column="1" bodyfile="sculptor.cpp" bodystart="50" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a4bdea3048b419d58e93074060eaa7b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::putVoxel</definition>
+        <argsstring>(int x, int y, int z)</argsstring>
+        <name>putVoxel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Criar o <ref refid="struct_voxel" kindref="compound">Voxel</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="41" column="1" bodyfile="sculptor.cpp" bodystart="62" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1ad9d714a35fc8ae16d06eb5df37c3493c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::cutVoxel</definition>
+        <argsstring>(int x, int y, int z)</argsstring>
+        <name>cutVoxel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Cortar o <ref refid="struct_voxel" kindref="compound">Voxel</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="45" column="1" bodyfile="sculptor.cpp" bodystart="79" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a88b0c956505a1b788829cf98277b4af0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::putBox</definition>
+        <argsstring>(int x0, int y0, int z0, int x1, int y1, int z1)</argsstring>
+        <name>putBox</name>
+        <param>
+          <type>int</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z1</declname>
+        </param>
+        <briefdescription>
+<para>Cria uma sequência de Voxels em forma de caixa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="49" column="1" bodyfile="sculptor.cpp" bodystart="92" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a5ad1b33910238f75576108337d57757e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::cutBox</definition>
+        <argsstring>(int x0, int y0, int z0, int x1, int y1, int z1)</argsstring>
+        <name>cutBox</name>
+        <param>
+          <type>int</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z1</declname>
+        </param>
+        <briefdescription>
+<para>Corta uma sequência de Voxels em forma de caixa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="53" column="1" bodyfile="sculptor.cpp" bodystart="115" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a794a2b6ee8fc8098fd6150cb46101fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::putSphere</definition>
+        <argsstring>(int xcenter, int ycenter, int zcenter, int radius)</argsstring>
+        <name>putSphere</name>
+        <param>
+          <type>int</type>
+          <declname>xcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ycenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>Cria uma sequência de Voxels em forma de esfera. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="57" column="1" bodyfile="sculptor.cpp" bodystart="134" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a67ab8c0ba5116adb8af1d01ad373ac15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::cutSphere</definition>
+        <argsstring>(int xcenter, int ycenter, int zcenter, int radius)</argsstring>
+        <name>cutSphere</name>
+        <param>
+          <type>int</type>
+          <declname>xcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ycenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>Corta uma sequência de Voxels em forma de esfera. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="61" column="1" bodyfile="sculptor.cpp" bodystart="168" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a093615b0c2b9b3a17a56300b9b939f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::putEllipsoid</definition>
+        <argsstring>(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)</argsstring>
+        <name>putEllipsoid</name>
+        <param>
+          <type>int</type>
+          <declname>xcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ycenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rz</declname>
+        </param>
+        <briefdescription>
+<para>Cria uma sequência de Voxels em forma de elipsoide. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="65" column="1" bodyfile="sculptor.cpp" bodystart="197" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a18d2922c111c4c13653ee07d878151ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::cutEllipsoid</definition>
+        <argsstring>(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)</argsstring>
+        <name>cutEllipsoid</name>
+        <param>
+          <type>int</type>
+          <declname>xcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ycenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zcenter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rz</declname>
+        </param>
+        <briefdescription>
+<para>Corta uma sequência de Voxels em forma de elipsoide. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="69" column="1" bodyfile="sculptor.cpp" bodystart="230" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a4faae5ab2d72f2f682005f468e7e8a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::writeOFF</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>writeOFF</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Cria arquivo para leitura do desenho, contendo as dimensões e as cores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="73" column="1" bodyfile="sculptor.cpp" bodystart="259" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sculptor_1a200442de17ed45b7a1ece728145a2ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sculptor::writeVECT</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>writeVECT</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Cria um arquivo para armazenar quantidades de poligonos,vertices e posições. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sculptor.h" line="77" column="1" bodyfile="sculptor.cpp" bodystart="341" bodyend="402"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para moldar. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sculptor.h" line="22" column="1" bodyfile="sculptor.h" bodystart="22" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_sculptor_1a6fd0157dcf17582f0edd5fddf157604e" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>a</name></member>
+      <member refid="class_sculptor_1a7aafd7305ea634252d8288b60536cd96" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>b</name></member>
+      <member refid="class_sculptor_1a5ad1b33910238f75576108337d57757e" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>cutBox</name></member>
+      <member refid="class_sculptor_1a18d2922c111c4c13653ee07d878151ad" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>cutEllipsoid</name></member>
+      <member refid="class_sculptor_1a67ab8c0ba5116adb8af1d01ad373ac15" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>cutSphere</name></member>
+      <member refid="class_sculptor_1ad9d714a35fc8ae16d06eb5df37c3493c" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>cutVoxel</name></member>
+      <member refid="class_sculptor_1a208c06af69a81a1568df4493868816f1" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>g</name></member>
+      <member refid="class_sculptor_1a645b884476c1463e997fa26d0e69f48f" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>nc</name></member>
+      <member refid="class_sculptor_1a525224a4b6cfce4f04f5436840c55014" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>nl</name></member>
+      <member refid="class_sculptor_1a0eda60149e22aee92e24e4a62f6247aa" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>np</name></member>
+      <member refid="class_sculptor_1a88b0c956505a1b788829cf98277b4af0" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>putBox</name></member>
+      <member refid="class_sculptor_1a093615b0c2b9b3a17a56300b9b939f39" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>putEllipsoid</name></member>
+      <member refid="class_sculptor_1a794a2b6ee8fc8098fd6150cb46101fc6" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>putSphere</name></member>
+      <member refid="class_sculptor_1a4bdea3048b419d58e93074060eaa7b52" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>putVoxel</name></member>
+      <member refid="class_sculptor_1a3f5d2ec3b66d645019b8d81c810a1cd8" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>r</name></member>
+      <member refid="class_sculptor_1a5e75695b8f097cdf0fa90bd721d1aa61" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>Sculptor</name></member>
+      <member refid="class_sculptor_1a4e53f85ee03b729efafa985f72563c4b" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>setColor</name></member>
+      <member refid="class_sculptor_1a4ca53a2f2fbf41ca42dfe729ebe693f1" prot="private" virt="non-virtual"><scope>Sculptor</scope><name>v</name></member>
+      <member refid="class_sculptor_1a4faae5ab2d72f2f682005f468e7e8a92" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>writeOFF</name></member>
+      <member refid="class_sculptor_1a200442de17ed45b7a1ece728145a2ddf" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>writeVECT</name></member>
+      <member refid="class_sculptor_1a8f159bf97458326f16d2e238e11be7ff" prot="public" virt="non-virtual"><scope>Sculptor</scope><name>~Sculptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
